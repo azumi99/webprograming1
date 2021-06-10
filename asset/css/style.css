@@ -1,3 +1,12 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+}
+/* navbar */
 .navbar .navbar-brand{
     color: #fff;
     font-size: 25px;
@@ -12,11 +21,21 @@
     font-size: 18px;
     font-weight: bold;
 }
-.carousel-item{
+
+/* coursel */
+#image_slider1{
+    width: 100%;
     height: 100vh;
-    background: no-repeat center center scroll;
-    background-position: center;
+    background: url("../image/ac_slide1.jpg") top center;
     background-size: cover;
+    position: relative;
+}
+#image_slider2{
+    width: 100%;
+    height: 100vh;
+    background: url("../image/ac_slide2.jpg") top center;
+    background-size: cover;
+    position: relative;
 }
 .carousel-caption{
     position: absolute;
@@ -34,12 +53,11 @@
     margin: auto;
     font-size: 18px;
     line-height: 1.9;
-    font-family: "Poppins", sans-serif;
 }
 .carousel-caption p a{
     text-transform: uppercase;
     text-decoration:none;
-    background: #262626;
+    background: #4dc0b5;
     padding: 10px 30px;
     display: inline-block;
     color: #fff;
@@ -47,9 +65,127 @@
     
 }
 .carousel-caption p a:hover{
-    background: #5c5c5c;
-}
-.w-100{
-    height: 100%;
+    background: #49b3a8;
 }
 
+.carousel-item.active h5{
+    animation: fadeInLeft 0.5s ease forwards;
+}
+.carousel-item.active p{
+    animation: fadeInRight 0.5s ease forwards;
+}
+
+/* animate caption coursel */
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform:  translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform:  translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* resposive coursel */
+@media(max-width:767px){
+    .d-none{
+        display: block!important;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+}
+
+/* service */
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    line-height: 1;
+    margin: 0;
+    background: #d7f7f4;
+    color: #4dc0b5;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+  }
+  
+  .section-title h3 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .section-title h3 span {
+    color: #4dc0b5;
+  }
+  
+  .section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 1024px) {
+    .section-title p {
+      width: 50%;
+    }
+  }
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -1px 2px 22px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 22px -17px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 22px -17px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+.card h6{
+    font-weight: normal;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover{
+    background-color: lightslategray;
+    animation: fadeHover 0.5s ease forwards;
+    color: #fff;
+}
+@keyframes fadeHover{
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
