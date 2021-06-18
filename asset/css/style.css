@@ -1299,6 +1299,7 @@ h1, h2, h3, h4, h5, h6 {
   
   .blog .entry .entry-footer .share i {
     padding-left: 5px;
+    text-decoration: none;
   }
   
   .blog .entry-single {
@@ -1317,7 +1318,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .blog .blog-author img {
-    width: 120px;
+    width: 80px;
+  }
+
+  .rounded-circle {
+    border-radius: 9%!important;
   }
   
   .blog .blog-author h4 {

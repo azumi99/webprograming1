@@ -5,13 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Kontak dan social media acbagus.id">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="asset/css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/72eca601e0.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <title>acbagus.com</title>
+    <title>acbagus.id | Contact</title>
 </head>
 
 <body>
@@ -89,6 +90,7 @@
                         <a href="https://www.linkedin.com/in/ilham-tegar-1b60391a5/">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
+                        <a href="https://api.whatsapp.com/send?phone=082251116009"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -212,9 +214,9 @@
                 </div>
             </div>
             <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                <a href=""><i class="fab fa-instagram"></i></i></a>
-                <a href="" target="_blank" class="instagram"><i class="fab fa-whatsapp"></i></a>
-                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ananda_xcn/"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=082251116009" target="_blank" class="instagram"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/ilham.kuhakusoft" class="facebook"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
     </footer>
