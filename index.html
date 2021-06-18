@@ -21,7 +21,7 @@
 	<!-- navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top ">
 		<div class="container">
-			<a class="navbar-brand" href="#">ACBAGUS</a>
+			<a class="navbar-brand" href="index.html">ACBAGUS</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -29,16 +29,16 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="about.html">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="contact.php">Contact</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Blog</a>
+						<a class="nav-link" href="blog.html">Blog</a>
 					</li>
 				</ul>
 			</div>
@@ -59,7 +59,7 @@
 							<div class="container">
 								<h5>acbagus.id</h5>
 								<p>Layanan Service Ac Profesional & Terpercaya</p>
-								<p><a href="">MORE INFO</a></p>
+								<p><a href="#service">MORE INFO</a></p>
 							</div>
 						</div>
 					</section>
@@ -71,7 +71,7 @@
 								<h5>Buat AC Anda Seperti Baru Kembali</h5>
 								<p>Profesional maintenance air conditioner
 								</p>
-								<p><a href="">MORE INFO</a></p>
+								<p><a href="#service">MORE INFO</a></p>
 							</div>
 						</div>
 					</section>
@@ -89,7 +89,7 @@
 	</div>
 
 	<!-- service -->
-	<section class="services py-5">
+	<section id="service" class="services py-5">
 		<div class="container py-5">
 			<div class="section-title">
 				<h2>Layanan</h2>
@@ -97,39 +97,34 @@
 			</div>
 			<div class="row pb-3">
 				<div class="col-lg-4 mb-3">
-					<div class="card text-center">
+					<div class="card card-hover text-center">
 						<div class="card-body">
-							<div class="circle">
-								<img src="asset/image/cuci_ac.png" class="img_icon">
-							</div>
+							<img src="asset/image/cuci_ac.png" class="img_icon">
 							<h4 class="font-weight-bold pb-2">Cuci AC</h4>
 							<h6>Bersihkan AC anda secara berkala, sehingga ruangan menjadi nyaman dan segar</h6>
-							<button type="button" class="btn btn-info">More</button>
+							<a href="cuci-ac.html" class="btn btn-info" role="button" aria-pressed="true">More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 mb-3">
-					<div class="card text-center">
+					<div class="card card-hover text-center">
 						<div class="card-body">
-							<div class="circle">
-								<img src="asset/image/bongkar_pasang_ac.png" class="img_icon">
-							</div>
+							<img src="asset/image/bongkar_pasang_ac.png" class="img_icon">
 							<h4 class="font-weight-bold pb-2">Bongkar Pasang AC</h4>
 							<h6>Service Bongkar dan Pasang Ac milik anda dengan team teknisi yang handal dan
 								berpengalaman</h6>
-							<button type="button" class="btn btn-info">More</button>
+							<a href="bongkar-ac.html" class="btn btn-info" role="button" aria-pressed="true">More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 mb-3">
-					<div class="card text-center">
+					<div class="card card-hover text-center">
 						<div class="card-body">
-							<div class="circle">
-								<img src="asset/image/ac_maintenance.png" class=" img_icon">
-							</div>
+							<img src="asset/image/ac_maintenance.png" class=" img_icon">
 							<h4 class="font-weight-bold pb-2">Perbaikan AC</h4>
 							<h6>Maintenance Ac dari bagus.id memiliki team teknisi yang professional dan terpercaya</h6>
-							<button type="button" class="btn btn-info">More</button>
+							<a href="maintenance-ac.html" class="btn btn-info" role="button"
+								aria-pressed="true">More</a>
 						</div>
 					</div>
 				</div>
@@ -149,7 +144,7 @@
 					<p>Pengerjaan maintenance AC anda dikerjakan langsung oleh tim intenal dari acbagus.id yang dimana
 						di dalam SOP nya menerapkan protokol kesehatan di era pandemi ini sehingga tetap mengedepankan
 						kesehatan para tim pekerja acbagus.id dan pelanggan</p>
-					<ul>
+					<ul class="list-icon">
 						<li><i class="far fa-check-circle"></i>Tim teknikal kami selalu menggunkan masker dari mulai di
 							kantor hingga ke lokasi pelanggan</li>
 						<li><i class="far fa-check-circle"></i>Selalu menggunakan sarung tangan saat pengerjaan
@@ -372,8 +367,17 @@
 				</li>
 			</ul>
 		</div>
-	</section><!-- End F.A.Q Section -->
+	</section>
 
+	<!-- call to action nya -->
+	<section id="cta" class="cta">
+		<div class="container">
+			<div class="text-center">
+				<h3>Hubungi Untuk Order Sekarang</h3>
+				<a class="cta-btn" href="contact.php" target="_blank">Pesan Sekarang</a>
+			</div>
+		</div>
+	</section>
 
 	<!-- footer -->
 	<footer id="footer">
@@ -392,10 +396,10 @@
 					<div class="col-lg-2 col-md-6 footer-links">
 						<h4>Useful Links</h4>
 						<ul>
-							<li><a href="">Home</a></li>
-							<li><a href="">About</a></li>
-							<li><a href="">Contact</a></li>
-							<li><a href="">Blog</a></li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.php">Contact</a></li>
+							<li><a href="blog.html">Blog</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-4 col-md-6 footer-newsletter">
