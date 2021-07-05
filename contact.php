@@ -152,7 +152,7 @@
         $mail->Port = 465;
         $mail->SMTPAuth = true;
         $mail->Username = "kuhakuteam99@gmail.com";
-        $mail->Password = "155ilham";
+        $mail->Password = "";
         $mail->SetFrom("kuhakuteam99@gmail.com", $email);
         $mail->Subject = $subjek;
         $mail->AddAddress("ilhambintang399@gmail.com");
